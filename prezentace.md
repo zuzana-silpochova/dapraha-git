@@ -107,7 +107,8 @@
 
 # Commity
 
-* Commit je gitovský termín pro změnu
+* Commit je objekt v gitovém repozitáři
+* Commit je změna v jenom či více souborů
 
 ## Co obsahuje commit
 
