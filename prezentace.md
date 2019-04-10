@@ -59,7 +59,7 @@
 * My si dnes vystačíme s cca 15 - téměř vše, co je potřeba znát
 
 ```
-   říká Windows,        
+   říká Windows,
  že chceme spustit       ,- parametry pro konkrétní příkaz gitu
        git               |
         |          ______|______
@@ -104,6 +104,67 @@
 * V aktuální složce bys měla mít složku `dapraha-git`
 * Zkontroluj, že tomu tak je pomocí příkazu `dir` (pokud jsi na Macu nebo Linuxu tak `ls`)
 * Otevři ji pomocí příkazu `cd`
+
+# Commity
+
+* Commit je gitovský termín pro změnu
+
+## Co obsahuje commit
+
+* Identifikátor ("hash") commitu
+* Identifikátor předchozího commitu
+* Autora commitu
+* Datum a čas vzniku commitu
+* Popis commitu zadaný autorem
+* Samotné změny
+
+## Jak vypadá commit
+
+    commit 880d9161ba9de2cb8899d3e5ceea0c8590576ad2
+    Author: Dan Vrátil <dan.vratil@czechitas.cz>
+    Date:   Wed Apr 10 17:42:29 2019 +0200
+
+        Oprava nevinného překlepu
+
+    diff --git a/prezentace.md b/prezentace.md
+    index 46aa983..f0ee52c 100644
+    --- a/prezentace.md
+    +++ b/prezentace.md
+    @@ -132,5 +132,5 @@
+     * Identifikátor předchozího commitu
+     * Autora commitu
+    -* Datum a čas vzňyku commitu
+   ˇ+* Datum a čas vzniku commitu
+     * Popis commitu zadaný autorem
+     * Samotné změny
+
+## Zobrazení commitu
+
+- `git show 880d9161ba9de2cb8899d3e5ceea0c8590576ad2`
+- `git show 880d91`
+
+## CVIČENÍ
+
+* V terminálu otevři repozitář, který sis naklonovala v minulém cvičení
+* Zobraz si commit `476751` (`476751b49e2d9a9f0e2edb84445540eb76ffc9f8`)
+
+
+# Historie
+
+* Historie je série commitů
+* V jednom repozitáří může být i více historií, které se mohou různě větvit
+* Historii říkáme `branch`, česky větev
+* Hlavní větev se jmenuje `master` a existuje v každém repozitáří
+* K větvím se podrobněji vrátíme později
+
+## Zobrazení historie
+
+- `git log`
+
+## CVIČENÍ
+
+* Zobraz si historii repozitáře
+
 
 
 
