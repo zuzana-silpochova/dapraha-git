@@ -411,7 +411,11 @@ class: center, middle
 
 # PAUZA
 
+---
+
 # Rekapitulace
+
+---
 
 # Velké cvičení
 
