@@ -119,21 +119,25 @@
 
 ## Jak udělám ze složky repozitář?
 
-- `git init muj-projekt` - vytvoří složku `muj-projekt` a začne ji verzovat v Gitu
+    git init muj-projekt
+
+* vytvoří složku `muj-projekt` a začne ji verzovat v Gitu
 
 ----
 
 ## Jak si stáhnu cizí repozitář z internetu?
 
 * V terminologii gitu se tomu říká klonování (cloning)
-- `git clone https://github.com/uzivatelske-jmeno/nazev-repozitare.git`
+
+    `git clone https://github.com/uzivatelske-jmeno/nazev-repozitare.git`
 
 ----
 
 ## CVIČENÍ
 
 * Naklonuj si můj vzorový repozitář:
-  - `git clone https://github.com/danvratil/dapraha-git.git`
+
+    `git clone https://github.com/danvratil/dapraha-git.git`
 
 * V aktuální složce bys měla mít složku `dapraha-git`
 * Zkontroluj, že tomu tak je pomocí příkazu `dir` (pokud jsi na Macu nebo Linuxu tak `ls`)
@@ -183,8 +187,9 @@
 
 ## Zobrazení commitu
 
-- `git show 880d9161ba9de2cb8899d3e5ceea0c8590576ad2`
-- `git show 880d91`
+    git show 880d9161ba9de2cb8899d3e5ceea0c8590576ad2
+
+    git show 880d91
 
 ----
 
@@ -207,7 +212,7 @@
 
 ## Zobrazení historie
 
-- `git log`
+    git log
 
 ----
 
@@ -223,7 +228,9 @@
 
 ## Stav repozitáře
 
-- `git status`
+    git status
+
+
 * Řekne nám, jaká je aktuální větev, a které soubory v repozitáři jsou změněné
 
 ----
@@ -238,7 +245,8 @@
 
 # Tvoříme commit
 
-- `git commit -a -m "Můj první commitek"`
+    git commit -a -m "Můj první commitek"
+
 * `-a` říká gitu, že chceme commitnout všechny změny v repozitáři
 * `-m "Commit message"` nastaví popis commitu
 
@@ -258,8 +266,11 @@
 * Někdy ale chceme commitnout jenom změny v některých souborech (nebo dokonce
   jenom některé změny v souboru)
 * Změny, které chceme commitnout, musíme přidat do tzv. _stage_
-- `git add zmeneny-soubor`
-* `git commit -m "Popis změny"`
+
+
+    `git add zmeneny-soubor`
+
+    `git commit -m "Popis změny"`
 
 ----
 
@@ -281,7 +292,9 @@
 ## Stahování změn
 
 * Jak si stáhnout změny třeba z Githubu?
-- `git pull`
+
+
+    `git pull`
 
 ----
 
