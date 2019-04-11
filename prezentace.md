@@ -258,6 +258,16 @@ git status
 Řekne nám, jaká je aktuální větev, a které soubory v repozitáři jsou změněné.
 
 ---
+
+## Aktuální změny
+
+```
+git diff
+```
+
+Zobrazí rozdíl mezi posledním commitem a aktuálním stavem všech souborů
+
+---
 class: excer
 
 ## CVIČENÍ
@@ -300,6 +310,17 @@ class: excer
 git add zmeneny-soubor
 git commit -m "Popis změny"
 ```
+
+---
+
+## Stagnuté změny
+
+```
+git diff --staged
+```
+
+* Zobrazí rozdíl mezi posledním commitem a aktuálně stagnutými změnami
+* Hodí se na kontrolu toho, co vlastně bude v commitu před tím, než spustíš `git commit`
 
 ---
 class: excer
