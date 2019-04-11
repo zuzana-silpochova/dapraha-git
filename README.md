@@ -5,8 +5,13 @@ od [Czechitas](https://www.czechitas.cz).
 
 ## Jak spustit prezentaci
 
+Aktuální prezentaci si můžeš zobrazit [online zde](https://danvratil.github.io/dapraha-git/prezentace.html).
+
+
 Obsah slajdů je v souboru [prezentace.md](https://github.com/danvratil/dapraha-git/blob/master/prezentace.md).
 Samotná prezentace je udělaná pomocí RevealJS.
+
+Pokud si chceš prezentaci zobrazit lokálně ve svém PC, použij tento příkaz:
 
 Windows:
 
@@ -16,7 +21,8 @@ Linux/MacOS:
 
     make serve
 
-Prezentaci si můžeš otevřít v prohlížeči na adrese <http://localhost:8000/prezentace.html>
+Prezentaci si můžeš otevřít v prohlížeči na adrese <http://localhost:8000/prezentace.html>. Pozor, že
+prezentace i tak vyžaduje přístup k internetu (kvůli fontům a RevealJS knihovně).
 
 ## Prerekvizity
 
