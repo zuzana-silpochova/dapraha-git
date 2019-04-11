@@ -216,7 +216,96 @@
 
 * Zobraz si historii repozitáře
 
+----
 
+# Tvoříme historii
 
+----
 
+## Stav repozitáře
+
+- `git status`
+* Řekne nám, jaká je aktuální větev, a které soubory v repozitáři jsou změněné
+
+----
+
+## CVIČENÍ
+
+* Zobraz si stav repozitáře
+* Vytvoř v repozitáři nový soubor s nějakým textem
+* Znovu si zobraz stav repozitáře
+
+----
+
+# Tvoříme commit
+
+- `git commit -a -m "Můj první commitek"`
+* `-a` říká gitu, že chceme commitnout všechny změny v repozitáři
+* `-m "Commit message"` nastaví popis commitu
+
+----
+
+## CVIČENÍ
+
+* Změn si nějaký soubor v repozitáři a udělej commit
+* Podívej, jaký je stav repozitáře před a po commitu
+* Podívej se na svůj commit v historii a zobraz si ho
+
+----
+
+## Staging
+
+* `git commit -a` vloží do commitu všechny aktuální změny v repozitáři
+* Někdy ale chceme commitnout jenom změny v některých souborech (nebo dokonce
+  jenom některé změny v souboru)
+* Změny, které chceme commitnout, musíme přidat do tzv. /stage/
+- `git add zmeneny-soubor`
+* `git commit -m "Popis změny"`
+
+----
+
+## CVIČENÍ
+
+* Změň si nějaké dva soubory v repozitáři
+* Podívej se na stav repozitáře
+* Přidej jeden ze změněných souborů do stage, druhý nech být
+* Znovu si nech zobrazit stav repozitáře
+* Udělej nový commit
+* Zobraz si znovu stav repozitáře
+
+----
+
+# Synchronizace mezi repozitáři
+
+----
+
+## Stahování změn ze vzdáleného repozitáře
+
+* Jak si stáhnout změny třeba z Githubu?
+- `git pull`
+
+----
+
+## CVIČENÍ
+
+* Prohlédni si svou historii gitu
+* Stáhni si změny, které jsem nahrál na Github
+* Znovu se podívej na svou historii - vidíš v ní mou novou změnu?
+
+----
+
+# Odbočka: Forkování repozitářů na Githubu
+
+* Do svého repozitáře můžu nahrávat změny pouze já
+* Pokud do něj chcete nahrávat taky, musím vám dát přístup (nedám!)
+* Otevři si můj repozitář na Githubu: https://github.com/danvratil/dapraha-git
+* Vpravo nahoře klikni na tlačítko "Fork"
+* Github udělá pod tvým účtem kopii mého repozitáře, do které můžeš zapisovat
+
+----
+
+## CVIČENÍ
+
+* Vylez ze svého repozitáře (`cd ..`)
+* Naklonuj si z Githubu svůj fork: `git clone https://github.com/TvojeGithubPřezdívka/dapraha-git`
 
