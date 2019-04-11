@@ -11,7 +11,7 @@
 ## Co je to verzovací systém?
 
 * Software pro sledování změn v souborech
-* VCS existuje spousta: CVS, SVN, BitKeeper, Bazaar, Mercurial, Git
+* VCS existuje spousta: CVS, SVN, BitKeeper, Bazaar, Mercurial, Git, ...
 * Git je nejrozšířenější a nejpopulárnější
 
 ----
@@ -44,7 +44,7 @@
 
 # Spooousta termínů
 
-* Dneska nás čeká spousta nových termínů. Jako /FAKT/. /VELKÁ/. /SPOUSTA/.
+* Dneska nás čeká spousta nových termínů. Jako _FAKT_. _VELKÁ_. _SPOUSTA_.
 * Budou se vám plést
 * Používejte cheat-sheet
 
@@ -84,7 +84,6 @@
 * Samotný git má přes 120 příkazů, spoustě z nich nikdo nerozumí
 * My si dnes vystačíme s cca 15 - téměř vše, co je potřeba znát
 
-    !python
       říká Windows,
     že chceme spustit       ,- parametry pro konkrétní příkaz gitu
           git               |
@@ -138,7 +137,7 @@
 
 * V aktuální složce bys měla mít složku `dapraha-git`
 * Zkontroluj, že tomu tak je pomocí příkazu `dir` (pokud jsi na Macu nebo Linuxu tak `ls`)
-* Otevři ji pomocí příkazu `cd`
+* Otevři ji pomocí příkazu `cd dapraha-git`
 
 ----
 
@@ -258,7 +257,7 @@
 * `git commit -a` vloží do commitu všechny aktuální změny v repozitáři
 * Někdy ale chceme commitnout jenom změny v některých souborech (nebo dokonce
   jenom některé změny v souboru)
-* Změny, které chceme commitnout, musíme přidat do tzv. /stage/
+* Změny, které chceme commitnout, musíme přidat do tzv. _stage_
 - `git add zmeneny-soubor`
 * `git commit -m "Popis změny"`
 
@@ -279,14 +278,14 @@
 
 ----
 
-## Stahování změn ze vzdáleného repozitáře
+## Stahování změn
 
 * Jak si stáhnout změny třeba z Githubu?
 - `git pull`
 
 ----
 
-## CVIČENÍ
+### CVIČENÍ
 
 * Prohlédni si svou historii gitu
 * Stáhni si změny, které jsem nahrál na Github
@@ -294,7 +293,7 @@
 
 ----
 
-# Odbočka: Forkování repozitářů na Githubu
+## Odbočka: Forkování repozitářů
 
 * Do svého repozitáře můžu nahrávat změny pouze já
 * Pokud do něj chcete nahrávat taky, musím vám dát přístup (nedám!)
