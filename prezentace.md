@@ -409,3 +409,37 @@ class: center, middle
 
 # PAUZA
 
+# Rekapitulace
+
+# Velké cvičení
+
+* Založ si repozitář na Githubu
+* Naklonuj si ho do počítače
+* Vytvoř v něm pár commitů
+* Nahraj je zpátky na Github
+* Podívej se, že tam opravdu jsou
+
+---
+
+# Větve
+
+---
+
+## Vytvoření větve
+
+---
+
+## Seznam větví
+
+---
+
+## Přepínaní větví
+
+---
+
+## Mergování větví
+
+---
+
+# Merge konflikty
+
