@@ -275,6 +275,7 @@ class: excer
 * Zobraz si stav repozitáře
 * Vytvoř v repozitáři nový soubor s nějakým textem
 * Znovu si zobraz stav repozitáře
+* Zobraz si aktulní změny
 
 ---
 
@@ -331,6 +332,7 @@ class: excer
 * Podívej se na stav repozitáře
 * Přidej jeden ze změněných souborů do stage, druhý nech být
 * Znovu si nech zobrazit stav repozitáře
+* Zobraz si stagnuté změny
 * Udělej nový commit
 * Zobraz si znovu stav repozitáře
 
