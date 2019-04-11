@@ -316,8 +316,36 @@
 
 ----
 
-## CVIČENÍ
+### CVIČENÍ
 
 * Vylez ze svého repozitáře (`cd ..`)
-* Naklonuj si z Githubu svůj fork: `git clone https://github.com/TvojeGithubPřezdívka/dapraha-git`
+* Naklonuj si z Githubu svůj fork:
+
+    `git clone https://github.com/TvojeGithubPřezdívka/dapraha-git`
+
+----
+
+## Nahrávání změn
+
+    git push
+
+* někdy je potřeba specifikovat kam (tzv. "remote") a do jaké větve se mají změny nahrát:
+
+    `git push origin master`
+
+----
+
+### CVIČENÍ
+
+* udělej ve svém repozitáři nějaké změny a commitni je
+* nahraj je na Github pomocí `git push`
+* podívej se na svůj učet přímo na Githubu, jestli tam změny uvidíš
+
+----
+
+# PAUZA
+
+----
+
+
 
