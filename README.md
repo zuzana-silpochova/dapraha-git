@@ -23,4 +23,6 @@ Prezentaci si můžeš otevřít v prohlížeči na adrese <http://localhost:800
 * nainstalovaný [Git](https://git-scm.com)
 * nainstalovaný [VSCode](https://code.visualstudio.com)
 
+## Odkazy
 
+* [Git Cheat-Sheet](https://education.github.com/git-cheat-sheet-education.pdf)
