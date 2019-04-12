@@ -6,23 +6,23 @@ class: center, middle
 
 ## Co je to Git?
 
-* VCS - Version Control System - Verzovací systém
+* VCS (_Version Control System_) - Verzovací systém
 
 ---
 
 ## Co je to verzovací systém?
 
-* Software pro sledování změn v souborech
+* Nástroj sledování změn v souborech a jejich sdílení
 * VCS existuje spousta: CVS, SVN, BitKeeper, Bazaar, Mercurial, Git, ...
 * Git je nejrozšířenější a nejpopulárnější
 
 ---
 
-## Co je to teda ten Git?
+## Co je to teda ten Git, Dane!?!?
 
-* Distribuovaný VCS
+* Distribuovaný VCS _(to sem tomu pomoh, co?)_
 * Uchovává historii změn souborů
-* Umožňuje změny snadno decentralizovaně sdílet s dalšími lidmi
+* Umožňuje změny snadno sdílet s dalšími lidmi
 
 ---
 
@@ -40,15 +40,16 @@ class: center, middle
 * Příkazovou řádku
 * Nainstalovaný Git
 * Účet na Githubu
-* Trpělivost a odhodlání
+* Trpělivost, odhodlání a kuráž
 
 ---
 
 # Spooousta termínů
 
-* Dneska nás čeká spousta nových termínů. Jako _FAKT_. _VELKÁ_. _SPOUSTA_.
-* Budou se vám plést
-* Používejte cheat-sheet
+* Dneska nás čeká spousta nových termitů. Jako _FAKT_. _VELKÁ_. _SPOUSTA_.
+* Budou se vám plést a nebudete si je pamatovat
+* To nevadí, já si taky pamatuju jen ty, co používám každej den. Většinu. Některý. Pár.
+* Používejte [cheat-sheet](https://education.github.com/git-cheat-sheet-education.pdf)
 
 ---
 class: center, middle
@@ -68,8 +69,8 @@ class: center
 # Příkazová řádka
 
 * Znáte z Pythonu!
-* Nebojte se ji
-* Zkuste napsat příkaz "git"
+* Nebojte se jí, nekouše (ale může vám smazat soubory)
+* Zkuste do ní napsat příkaz `git`
 
 ---
 
@@ -77,9 +78,10 @@ class: center
 
 * Na začátku řádky vidíš název aktulání složky, ve které jseš
   * Je to stejné, jako když máš otevřenou složku v Průzkumníkovi
+* TODO: Screenshot konzole
 * Příkazy v příkazové řádce se provádějí v aktuální složce
 * Příkaz pro výpis obsahu aktuální složky: `dir` (na MacOS a Linuxu: `ls`)
-* Příkaz pro otevření složky: `cd složka` (cd = *c*hange *d*irectory)
+* Příkaz pro otevření složky: `cd složka` (`cd` = `c`hange `d`irectory)
 * Příkaz pro návrat do předchozí (nadřazené) složky: `cd ..`
 
 ---
@@ -91,7 +93,7 @@ class: noconsole
 * My si dnes vystačíme s cca 15 - téměř vše, co je potřeba znát
 
 ```
-říká Windows,
+  říká Windows,
 že chceme spustit       ,- parametry pro konkrétní příkaz gitu
       git               |
        |          ______|______
@@ -104,6 +106,7 @@ class: noconsole
    říká gitu, co má udělat
 (tzv. příkaz gitu - git command)
 ```
+(a pak že programátoři nemaj umělecký nadání!)
 ---
 
 ## Nápověda
@@ -214,7 +217,7 @@ class: excer
 
 ## CVIČENÍ
 
-* V terminálu otevři repozitář, který sis naklonovala v minulém cvičení
+* V terminálu otevři (`cd`) repozitář, který sis naklonovala v minulém cvičení
 * Zobraz si commit `476751` (`476751b49e2d9a9f0e2edb84445540eb76ffc9f8`)
 
 ---
@@ -223,9 +226,9 @@ class: excer
 
 * Historie je série commitů
 * V jednom repozitáří může být i více historií, které se mohou různě větvit
-* Historii říkáme `branch`, česky větev
+* Historii říkáme `branch`, česky _větev_, slovensky _vetva_, latinsky _genere_
 * Hlavní větev se jmenuje `master` a existuje v každém repozitáří
-* K větvím se podrobněji vrátíme později
+* K větvím se podrobněji vrátíme později (možná)
 
 ---
 
@@ -240,7 +243,7 @@ class: excer
 
 ## CVIČENÍ
 
-* Zobraz si historii repozitáře
+* Pokochej se historii mého repozitáře
 
 ---
 class: center, middle
@@ -255,7 +258,8 @@ class: center, middle
 git status
 ```
 
-Řekne nám, jaká je aktuální větev, a které soubory v repozitáři jsou změněné.
+Řekne nám, na jaké jsme aktuálně větvi, které soubory v repozitáři jsou změněné,
+které jsou připravené na commit, případně které soubory git zatím ještě neverzuje.
 
 ---
 
@@ -265,7 +269,7 @@ git status
 git diff
 ```
 
-Zobrazí rozdíl mezi posledním commitem a aktuálním stavem všech souborů
+Zobrazí rozdíl mezi posledním commitem a aktuálním stavem všech souborů.
 
 ---
 class: excer
@@ -273,9 +277,9 @@ class: excer
 ## CVIČENÍ
 
 * Zobraz si stav repozitáře
-* Vytvoř v repozitáři nový soubor s nějakým textem
+* Uprav v repozitáři nějaký existující soubor
 * Znovu si zobraz stav repozitáře
-* Zobraz si aktulní změny
+* Zobraz si aktuální změny
 
 ---
 
@@ -293,7 +297,7 @@ class: excer
 
 ## CVIČENÍ
 
-* Změn si nějaký soubor v repozitáři a udělej commit
+* Změň si nějaký soubor v repozitáři a udělej commit
 * Podívej, jaký je stav repozitáře před a po commitu
 * Podívej se na svůj commit v historii a zobraz si ho
 
@@ -308,7 +312,7 @@ class: excer
 
 
 ```
-git add zmeneny-soubor
+git add zmeneny-soubor.txt
 git commit -m "Popis změny"
 ```
 
@@ -364,7 +368,9 @@ class: excer
 ## Odbočka: Forkování repozitářů
 
 * Do svého repozitáře můžu nahrávat změny pouze já
-* Pokud do něj chcete nahrávat taky, musím vám dát přístup (nedám!)
+* Pokud do mého repozitáře chcete nahrávat taky, musím vám dát přístup _(nedám!)_
+--
+
 * Otevři si můj repozitář na Githubu: https://github.com/danvratil/dapraha-git
 * Vpravo nahoře klikni na tlačítko "Fork"
 * Github udělá pod tvým účtem kopii mého repozitáře, do které můžeš zapisovat
@@ -415,15 +421,55 @@ class: center, middle
 
 # Rekapitulace
 
+* Repozitář je složka, jejíž obsah je verzovaný gitem
+* Repozitář obsahuje historii změn, tzv. commitů
+
+
+```
+git init repo
+```
+vs.
+```
+git clone adresa
+```
+
+---
+
+```
+git status
+```
+--
+```
+git diff
+```
+--
+```
+git add zmeneny-soubor.txt
+```
+--
+```
+git diff --staged
+```
+--
+```
+git commit -m "Popis commitu"
+```
+--
+```
+git push
+```
+
 ---
 
 # Velké cvičení
 
-* Založ si repozitář na Githubu
+* Založ si repozitář na Githubu (ukážu jak)
 * Naklonuj si ho do počítače
-* Vytvoř v něm pár commitů
-* Nahraj je zpátky na Github
-* Podívej se, že tam opravdu jsou
+* Vytvoř v něm soubor `program.py`, který vypíše náhodné číslo od 1 do 100 _(snad sis nemyslela, že ti to dneska projde bez Pythonu ;-)_
+* Svůj program commitni do gitu a pushni na Github
+* Potom ještě program uprav, aby vypisoval náhodná čísla v rozsahu, který uživatel zadá jako parametr příkazové řádky _(Martin na tebe bude hrdej!)_
+* Nové změny commitni a pushni na Github
+* Podívej se, že tam opravdu jsou _(teď na tebe zas můžu bejt hrdej já)_
 
 ---
 
