@@ -22,7 +22,7 @@ Pokud při instalaci narazíš na nějaké problémy nebo si nebudeš něčím j
 1. Menu start: nech výchozí nastavení, _Next_
 
    ![Menu Start](obrazky/git-setup-04-menu.png)
-1. *Výchozí editor*: vyber "Use Visual Studio Code as Git's default editor"
+1. **Výchozí editor**: vyber "Use Visual Studio Code as Git's default editor", _Next_
 
    ![Výchozí editor](obrazky/git-setup-05-editor.png)
 1. Prostředí: nech výchozí nastavení ("Git from the command line and also from 3rd-party software"), _Next_
@@ -34,7 +34,7 @@ Pokud při instalaci narazíš na nějaké problémy nebo si nebudeš něčím j
 1. Konce řádek: nech výchozí nastavení ("Checkout Windows-style, commit Unix-style line endings"), _Next_
 
    ![Konce řádek](obrazky/git-setup-08-crlf.png)
-1. *Terminál*: vyber "Use Window's default console window"
+1. **Terminál**: vyber "Use Window's default console window", _Next_
 
    ![Terminál](obrazky/git-setup-09-terminal.png)
 1. Extra nastavení: nech zaškrtnuté vychozí nastavení, _Install_
