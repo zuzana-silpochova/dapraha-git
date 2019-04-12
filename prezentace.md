@@ -505,17 +505,64 @@ class: excer
 
 ---
 
-## Seznam větví
-
----
-
-## Přepínaní větví
-
----
-
-## Mergování větví
-
----
-
 # Merge konflikty
+
+* Nikdo je nemá rád
+* Objevují se, když to nejméně čekáš (a potřebuješ)
+* Dřív nebo později se s nimi setká každý gitovník
+
+---
+
+## Co je to merge konflikt?
+
+Když můj lokální klon repozitáře i server mají novou změnu, která mění stejnou řádku, nastává konflikt
+
+Situace: já i Petr jsme každý ve svém klonu repozitáře změnili stejnou řádku ve stejném souboru (každý trochu jinak) a udělali commit.
+
+Problém: když Petr pushne svou změnu na Github a já si ji zkusím stáhnout, nastane konflikt, protože Git neví, jak má Petrovu změnu napasovat na mojí.
+
+---
+class: noconsole
+
+## Jak se řeší merge konflikt?
+
+Blbě.
+
+--
+
+Git mi do souboru, ve kterém nastal merge konflikt, uloží obě varianty a je na mě, abych si vybral:
+
+```
+<<<<<<< HEAD
+Tohle je řádka, kterou jsem změnil já, Dan.
+=======
+Tohle je řádka, kterou jsme změnil já, Petr.
+>>>>>>> master
+```
+
+--
+
+Jak konflikt vyřeším je na mě. Mohu zahodit svou změnu, Petrovu změnu, nebo můžu celou řádku přepsat
+tak, aby nějakým způsobem zůstaly zachovány obě změny, třeba takto:
+
+```
+Tohle je řádka, kterou jsme změnili my, Dan a Petr.
+```
+
+---
+class: excer
+
+## Merge konflikt v praxi
+
+* Přesuň se do klonu mého původního repozitáře
+* V souboru `priklady/merge-conflict.txt` změň první řádek a udělej commit
+--
+
+* Já jsem udělal to samé a commit jsem pushnul na Github
+* Když zkusíš udělat `git pull`, nastane merge konflikt
+--
+
+* Merge konflikt vyřeš a příkazem `git commit` své řešení commitni
+
+
 
