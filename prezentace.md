@@ -12,7 +12,7 @@ class: center, middle
 
 ## Co je to verzovací systém?
 
-* Nástroj sledování změn v souborech a jejich sdílení
+* Nástroj na sledování změn v souborech a jejich sdílení
 * VCS existuje spousta: CVS, SVN, BitKeeper, Bazaar, Mercurial, Git, ...
 * Git je nejrozšířenější a nejpopulárnější
 
