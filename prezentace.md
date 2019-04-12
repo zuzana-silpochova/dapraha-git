@@ -460,6 +460,7 @@ git push
 ```
 
 ---
+class: excer
 
 # Velké cvičení
 
@@ -473,11 +474,34 @@ git push
 
 ---
 
-# Větve
+# Stash
+
+Někdy potřebujeme necommitnuté změny na chvilku "schovat", třeba abychom mohli udělat `git pull`,
+a pak je zase vytáhnout. Na to nám Git nabízí tzv. `stash`.
+
+Pro uložení všech necommitnutých změn do stashe slouží následující příkaz:
+
+```
+git stash
+```
+
+Pro opětovné vytažení změn ze stashe slouží parametr `pop`:
+
+```
+git stash pop
+```
 
 ---
+class: excer
 
-## Vytvoření větve
+## CVIČENÍ
+
+* Udělej si lokálně pár změn, ale necommituj je
+* Pomocí `git status` a `git diff` se na změny podívej
+* Nyní tyhle změny schovej do stashe
+* Znovu se podívej na stav repozitáře - neměla bys vidět žádné změny
+* Nyní zase změny ze stashe vytáhni
+* A znovu se podívej na stav repozitáře - vše by mělo být jako před tím, než si změny zastashovala
 
 ---
 
