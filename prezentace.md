@@ -20,18 +20,18 @@ class: center, middle
 
 ## Co je to teda ten Git, Dane!?!?
 
-* Distribuovaný VCS _(to sem tomu pomoh, co?)_
+* Distribuovaný VCS _(to sem tomu pomoh', co?)_
 * Uchovává historii změn souborů
 * Umožňuje změny snadno sdílet s dalšími lidmi
 
 ---
 
-## Git vs Github
+## Git vs GitHub
 
 * Git je jeden konkrétní nástroj pro verzování souborů
-* Github je online služba, skrz kterou můžeme sdílet naše soubory a jejich historii změn 
+* GitHub je online služba, skrz kterou můžeme sdílet naše soubory a jejich historii změn 
   s ostatními
-* Takových služeb existuje víc, třeba Gitlab, Bitbucket, Sourceforge, repo.or.cz, ...
+* Takových služeb existuje víc, třeba GitLab, Bitbucket, SourceForge, repo.or.cz, ...
 
 ---
 
@@ -39,7 +39,7 @@ class: center, middle
 
 * Příkazovou řádku
 * Nainstalovaný Git
-* Účet na Githubu
+* Účet na GitHubu
 * Trpělivost, odhodlání a kuráž
 
 ---
@@ -76,7 +76,7 @@ class: center
 
 ## Příkazová řádka a složky
 
-* Na začátku řádky vidíš název aktulání složky, ve které jseš
+* Na začátku řádky vidíš název aktuální složky, ve které jsi
   * Je to stejné, jako když máš otevřenou složku v Průzkumníkovi
 * TODO: Screenshot konzole
 * Příkazy v příkazové řádce se provádějí v aktuální složce
@@ -165,7 +165,7 @@ git clone https://github.com/danvratil/dapraha-git.git
 # Commity
 
 * Commit je objekt v gitovém repozitáři
-* Commit je změna v jenom či více souborů
+* Commit je změna v jednom či více souborů
 
 ---
 
@@ -225,9 +225,9 @@ class: excer
 # Historie
 
 * Historie je série commitů
-* V jednom repozitáří může být i více historií, které se mohou různě větvit
+* V jednom repozitáři může být i více historií, které se mohou různě větvit
 * Historii říkáme `branch`, česky _větev_, slovensky _vetva_, latinsky _genere_
-* Hlavní větev se jmenuje `master` a existuje v každém repozitáří
+* Hlavní větev se jmenuje `master` a existuje v každém repozitáři
 * K větvím se podrobněji vrátíme později (možná)
 
 ---
@@ -243,7 +243,7 @@ class: excer
 
 ## CVIČENÍ
 
-* Pokochej se historii mého repozitáře
+* Pokochej se historií mého repozitáře
 
 ---
 class: center, middle
@@ -298,7 +298,7 @@ class: excer
 ## CVIČENÍ
 
 * Změň si nějaký soubor v repozitáři a udělej commit
-* Podívej, jaký je stav repozitáře před a po commitu
+* Podívej se, jaký je stav repozitáře před a po commitu
 * Podívej se na svůj commit v historii a zobraz si ho
 
 ---
@@ -348,7 +348,7 @@ class: center, middle
 
 ## Stahování změn
 
-Jak si stáhnu nové změny třeba z Githubu?
+Jak si stáhnu nové změny třeba z GitHubu?
 
 ```
 git pull
@@ -360,7 +360,7 @@ class: excer
 ### CVIČENÍ
 
 * Prohlédni si svou historii gitu
-* Stáhni si změny, které jsem nahrál na Github
+* Stáhni si změny, které jsem nahrál na GitHub
 * Znovu se podívej na svou historii - vidíš v ní mou novou změnu?
 
 ---
@@ -373,7 +373,7 @@ class: excer
 
 * Otevři si můj repozitář na Githubu: https://github.com/danvratil/dapraha-git
 * Vpravo nahoře klikni na tlačítko "Fork"
-* Github udělá pod tvým účtem kopii mého repozitáře, do které můžeš zapisovat
+* GitHub udělá pod tvým účtem kopii mého repozitáře, do které můžeš zapisovat
 
 ---
 class: excer
@@ -381,7 +381,7 @@ class: excer
 ### CVIČENÍ
 
 * Vylez ze svého repozitáře (`cd ..`)
-* Naklonuj si z Githubu svůj fork:
+* Naklonuj si z GitHubu svůj fork:
 
 ```
 git clone https://github.com/TvojeGithubPřezdívka/dapraha-git
@@ -409,8 +409,8 @@ class: excer
 ### CVIČENÍ
 
 * udělej ve svém repozitáři nějaké změny a commitni je
-* nahraj je na Github pomocí `git push`
-* podívej se na svůj učet přímo na Githubu, jestli tam změny uvidíš
+* nahraj je na GitHub pomocí `git push`
+* podívej se na svůj učet přímo na GitHubu, jestli tam změny uvidíš
 
 ---
 class: center, middle
@@ -464,12 +464,12 @@ class: excer
 
 # Velké cvičení
 
-* Založ si repozitář na Githubu (ukážu jak)
+* Založ si repozitář na GitHubu (ukážu jak)
 * Naklonuj si ho do počítače
-* Vytvoř v něm soubor `program.py`, který vypíše náhodné číslo od 1 do 100 _(snad sis nemyslela, že ti to dneska projde bez Pythonu ;-)_
-* Svůj program commitni do gitu a pushni na Github
-* Potom ještě program uprav, aby vypisoval náhodná čísla v rozsahu, který uživatel zadá jako parametr příkazové řádky _(Martin na tebe bude hrdej!)_
-* Nové změny commitni a pushni na Github
+* Vytvoř v něm soubor `program.py`, který vypíše náhodné číslo od 1 do 100 _(snad sis nemyslela, že Ti to dneska projde bez Pythonu ;-)_
+* Svůj program commitni do gitu a pushni na GitHub
+* Potom ještě program uprav tak, aby vypisoval náhodná čísla v rozsahu, který uživatel zadá jako parametr příkazové řádky _(Martin na tebe bude hrdej!)_
+* Nové změny commitni a pushni na GitHub
 * Podívej se, že tam opravdu jsou _(teď na tebe zas můžu bejt hrdej já)_
 
 ---
@@ -519,7 +519,7 @@ Když můj lokální klon repozitáře i server mají novou změnu, která měn�
 
 Situace: já i Petr jsme každý ve svém klonu repozitáře změnili stejnou řádku ve stejném souboru (každý trochu jinak) a udělali commit.
 
-Problém: když Petr pushne svou změnu na Github a já si ji zkusím stáhnout, nastane konflikt, protože Git neví, jak má Petrovu změnu napasovat na mojí.
+Problém: když Petr pushne svou změnu na GitHub a já si ji zkusím stáhnout, nastane konflikt, protože Git neví, jak má Petrovu změnu napasovat na mojí.
 
 ---
 class: noconsole
@@ -530,7 +530,7 @@ Blbě.
 
 --
 
-Git mi do souboru, ve kterém nastal merge konflikt, uloží obě varianty a je na mě, abych si vybral:
+Git mi do souboru, ve kterém nastal merge konflikt, uloží obě varianty a je na mně, abych si vybral:
 
 ```
 <<<<<<< HEAD
@@ -542,7 +542,7 @@ Tohle je řádka, kterou jsme změnil já, Petr.
 
 --
 
-Jak konflikt vyřeším je na mě. Mohu zahodit svou změnu, Petrovu změnu, nebo můžu celou řádku přepsat
+Jak konflikt vyřeším je na mně. Mohu zahodit svou změnu, Petrovu změnu, nebo můžu celou řádku přepsat
 tak, aby nějakým způsobem zůstaly zachovány obě změny, třeba takto:
 
 ```
@@ -558,7 +558,7 @@ class: excer
 * V souboru `priklady/merge-conflict.txt` změň první řádek a udělej commit
 --
 
-* Já jsem udělal to samé a commit jsem pushnul na Github
+* Já jsem udělal to samé a commit jsem pushnul na GitHub
 * Když zkusíš udělat `git pull`, nastane merge konflikt
 --
 
