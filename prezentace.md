@@ -155,7 +155,7 @@ Vytvoří složku `muj-projekt` a začne ji verzovat v Gitu.
 V terminologii gitu se tomu říká klonování (cloning).
 
 ```
-git clone https://github.com/uzivatelske-jmeno/nazev-repozitare.git
+git clone https://server.com/repozitar.git
 ```
 
 ---
