@@ -194,25 +194,25 @@ git clone https://github.com/danvratil/dapraha-git.git
 class: noconsole
 
 ## Jak vypadá commit
+```
+commit 880d9161ba9de2cb8899d3e5ceea0c8590576ad2
+author: dan vrátil <dan.vratil@czechitas.cz>
+date:   wed apr 10 17:42:29 2019 +0200
 
-    commit 880d9161ba9de2cb8899d3e5ceea0c8590576ad2
-    Author: Dan Vrátil <dan.vratil@czechitas.cz>
-    Date:   Wed Apr 10 17:42:29 2019 +0200
+    oprava nevinného překlepu
 
-        Oprava nevinného překlepu
-
-    diff --git a/prezentace.md b/prezentace.md
-    index 46aa983..f0ee52c 100644
-    --- a/prezentace.md
-    +++ b/prezentace.md
-    @@ -132,5 +132,5 @@
-     * Identifikátor předchozího commitu
-     * Autora commitu
-    -* Datum a čas vzňyku commitu
-    +* Datum a čas vzniku commitu
-     * Popis commitu zadaný autorem
-     * Samotné změny
-
+diff --git a/prezentace.md b/prezentace.md
+index 46aa983..f0ee52c 100644
+--- a/prezentace.md
++++ b/prezentace.md
+@@ -132,5 +132,5 @@
+ * identifikátor předchozího commitu
+ * autora commitu
+-* datum a čas vzňyku commitu
++* datum a čas vzniku commitu
+ * popis commitu zadaný autorem
+ * samotné změny
+```
 ---
 
 ## Zobrazení commitu
