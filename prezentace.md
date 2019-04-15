@@ -78,7 +78,9 @@ class: center
 
 * Na začátku řádky vidíš název aktuální složky, ve které jsi
   * Je to stejné, jako když máš otevřenou složku v Průzkumníkovi
-* TODO: Screenshot konzole
+
+![Konzole](obrazky/cmdline.png)
+
 * Příkazy v příkazové řádce se provádějí v aktuální složce
 * Příkaz pro výpis obsahu aktuální složky: `dir` (na MacOS a Linuxu: `ls`)
 * Příkaz pro otevření složky: `cd složka` (`cd` = `c`hange `d`irectory)
