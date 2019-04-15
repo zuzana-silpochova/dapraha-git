@@ -118,7 +118,7 @@ _(a pak že programátoři nemaj umělecký nadání!)_
 * Nápověda ke konkrétnímu příkazu:
     - `git help příkaz`
     * někdy hodně technické a těžko srozumitelné
-
+* [Cheat-sheet](https://education.github.com/git-cheat-sheet-education.pdf)
 ---
 
 # Konfigurace
