@@ -1,8 +1,8 @@
 # TODO
-* opravit ascii-art se strukturou git příkazu
-
+* `git config user.name` a `git config user.email` na začátku, jinak nemůžem commitovat
 
 # Thoughts/Když zbyde čas
-* Git log - reference na větve?
+* Víc do hloubky o větvích
+* `git log` - reference na větve?
 * Vysvětlit symbolické reference?
 * Vysvětlit reference na předky (^, ~)?
