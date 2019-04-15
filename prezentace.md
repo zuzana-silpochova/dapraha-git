@@ -169,9 +169,9 @@ class: excer
 git clone https://github.com/danvratil/dapraha-git.git
 ```
 
-* V aktuální složce bys měla mít složku `dapraha-git`
+* V pracovním adresáři bys nyní měla mít složku `dapraha-git`
 * Zkontroluj, že tomu tak je pomocí příkazu `dir` (pokud jsi na Macu nebo Linuxu tak `ls`)
-* Otevři ji pomocí příkazu `cd dapraha-git`
+* Otevři ji pomocí příkazu `cd dapraha-git` a podívej se, co v ní je
 
 ---
 
@@ -197,10 +197,10 @@ class: noconsole
 ## Jak vypadá commit
 ```
 commit 880d9161ba9de2cb8899d3e5ceea0c8590576ad2
-author: dan vrátil <dan.vratil@czechitas.cz>
-date:   wed apr 10 17:42:29 2019 +0200
+Author: Dan Vrátil <dan.vratil@czechitas.cz>
+Date:   Wed Apr 10 17:42:29 2019 +0200
 
-    oprava nevinného překlepu
+    Oprava nevinného překlepu
 
 diff --git a/prezentace.md b/prezentace.md
 index 46aa983..f0ee52c 100644
@@ -230,8 +230,7 @@ class: excer
 
 ## CVIČENÍ
 
-* V terminálu otevři (`cd`) repozitář, který sis naklonovala v minulém cvičení
-* Zobraz si commit `476751` (`476751b49e2d9a9f0e2edb84445540eb76ffc9f8`)
+* Zobraz si commit `6a0d` (`6a0d097a73b446110ebce85bf51e3547f6ab0ffd`)
 
 ---
 
@@ -397,8 +396,10 @@ class: excer
 * Naklonuj si z GitHubu svůj fork:
 
 ```
-git clone https://github.com/TvojeGithubPřezdívka/dapraha-git
+git clone https://github.com/TvojePřezdívka/dapraha-git moje-dapraha-git
 ```
+
+* Vlez do složky se svým klonem: `cd moje-dapraha-git`
 
 ---
 
@@ -576,6 +577,3 @@ class: excer
 --
 
 * Merge konflikt vyřeš a příkazem `git commit` své řešení commitni
-
-
-
