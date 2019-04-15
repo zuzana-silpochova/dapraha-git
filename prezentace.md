@@ -95,20 +95,19 @@ class: noconsole
 * My si dnes vystačíme s cca 15 - téměř vše, co je potřeba znát
 
 ```
-  říká Windows,
-že chceme spustit       ,- parametry pro konkrétní příkaz gitu
-      git               |
-       |          ______|______
-      / \        /             \
-      | |        |             |
-      git commit -m "Můj commit"
-          |    |
-          \____/
-             |
-   říká gitu, co má udělat
-(tzv. příkaz gitu - git command)
+             říká Windows,
+           že chceme spustit       ,- parametry pro konkrétní
+                 Git               |  příkaz Gitu
+                  |          ______|______
+                 / \        /             \
+      C:\slozka> git commit -m "Můj commit"
+      \_______/      \____/
+         |              |
+ aktuální složka, ve    |
+které se budou příkazy  `- říká Gitu, co má udělat
+      provádět             (tzv. příkaz Gitu - git command)
 ```
-(a pak že programátoři nemaj umělecký nadání!)
+_(a pak že programátoři nemaj umělecký nadání!)_
 ---
 
 ## Nápověda
