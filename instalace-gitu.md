@@ -1,6 +1,7 @@
 # Instalace Gitu
 
-Návod jak si nainstalovat Git na Windows a na Mac OS. Na Linuxu už ho buď máš, nebo ho nainstaluješ přes správce balíčků.
+Návod jak si nainstalovat Git na Windows, Mac OS a Linux.
+
 Pokud při instalaci narazíš na nějaké problémy nebo si nebudeš něčím jistá, napiš nám na Slacku.
 
 ## Windows
@@ -58,3 +59,20 @@ Pokud při instalaci narazíš na nějaké problémy nebo si nebudeš něčím j
 
 Pokud ti něco nepůjde, neváhej se nám ozvat na Slacku, my ti poradíme :-)
 
+## Linux
+
+Je docela velká šance, že Git už máš nainstalovaný. Spusť terminál a napiš do něj příkaz `git --version`.
+Pokud to vypíše něco jako `git version 2.0.0` (číslo verze může být jiné, to nevadí), tak už Git máš a není
+co řešit. Pokud ti to nabídne instalaci, tak to ber. Pokud tě to jen pošle do háje, budeš muset Git nainstalovat sama.
+
+Pokud nevíš, jakou máš distribuci nebo jaký tam je správce balíčku, tak prostě vyzkoušej postupně všechny následující příkazy,
+dojud nějaký nebude fungovat.
+
+* `sudo apt-get install git` (Ubuntu, Debian)
+* `sudo dnf install git` (Fedora)
+* `sudo yum install git` (Fedora, CentOS)
+* `sudo zypper install git` (OpenSUSE, SuSE)
+* `sudo pacman -S git` (ArchLinux, Manjaro)
+* Jako fakt nic z toho nefungovalo? Napiš mi na Slacku, vykoumáme to ;-)
+
+Po instalaci už by příkaz `git --version` měl fungovat.
