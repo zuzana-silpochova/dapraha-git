@@ -62,7 +62,7 @@ class: center
 # Příkazová řádka
 
 
-![bane](https://memegenerator.net/img/instances/53038538/you-merely-adopted-the-command-line-i-was-born-in-it-molded-by-it-i-didnt-see-a-gui-until-i-was-alre.jpg)
+![bane](obrazky/bane.jpg)
 
 ---
 
