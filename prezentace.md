@@ -120,6 +120,17 @@ _(a pak že programátoři nemaj umělecký nadání!)_
 
 ---
 
+# Konfigurace
+
+Než začneme gitovat, musíme v gitu nastavit naše jméno a emailovou adresu
+
+```
+git config --global user.name "Dan Vrátil"
+git config --global user.email dan.vratil@czechitas.cz
+```
+
+---
+
 # Repozitář
 
 * Obyčejná složka, jejíž obsah verzujeme ve VCS (v našem případě v Gitu)
