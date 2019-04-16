@@ -329,6 +329,12 @@ git commit -m "Popis změny"
 ```
 
 ---
+class: center, middle
+## Staging
+
+![Flow diagram](obrazky/flow.png)
+
+---
 
 ## Stagnuté změny
 
@@ -425,11 +431,6 @@ class: excer
 * udělej ve svém repozitáři nějaké změny a commitni je
 * nahraj je na GitHub pomocí `git push`
 * podívej se na svůj učet přímo na GitHubu, jestli tam změny uvidíš
-
----
-class: center, middle
-
-# PAUZA
 
 ---
 
