@@ -66,7 +66,7 @@ Pokud to vypíše něco jako `git version 2.0.0` (číslo verze může být jin�
 co řešit. Pokud ti to nabídne instalaci, tak to ber. Pokud tě to jen pošle do háje, budeš muset Git nainstalovat sama.
 
 Pokud nevíš, jakou máš distribuci nebo jaký tam je správce balíčku, tak prostě vyzkoušej postupně všechny následující příkazy,
-dojud nějaký nebude fungovat.
+dokud nějaký nebude fungovat.
 
 * `sudo apt-get install git` (Ubuntu, Debian)
 * `sudo dnf install git` (Fedora)
