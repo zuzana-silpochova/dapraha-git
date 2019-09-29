@@ -1,6 +1,6 @@
 # Instalace Gitu
 
-Návod jak si nainstalovat Git na Windows, Mac OS a Linux.
+Návod jak si nainstalovat Git na [Windows](#windows), [Mac OS](#mac-os) a [Linux](#linux).
 
 Pokud při instalaci narazíš na nějaké problémy nebo si nebudeš něčím jistá, napiš nám na Slacku.
 
