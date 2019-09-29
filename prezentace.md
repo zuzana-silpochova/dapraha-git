@@ -140,17 +140,7 @@ git config --global user.email dan.vratil@czechitas.cz
 
 ---
 
-## Jak udělám ze složky repozitář?
-
-```
-git init muj-projekt
-```
-
-Vytvoří složku `muj-projekt` a začne ji verzovat v Gitu.
-
----
-
-## Jak si stáhnu cizí repozitář z internetu?
+## Jak si stáhnu repozitář z internetu?
 
 V terminologii gitu se tomu říká klonování (cloning).
 
@@ -177,8 +167,8 @@ git clone https://github.com/danvratil/dapraha-git.git
 
 # Commity
 
-* Commit je objekt v gitovém repozitáři
-* Commit je změna v jednom či více souborů
+* Vždy, když řeknete gitu, aby si zapamatoval aktuální verzi souborů, uděláte to pomocí tzv. commitu
+* Commit je změna v jednom či více souborech
 
 ---
 
@@ -440,10 +430,6 @@ class: excer
 * Repozitář obsahuje historii změn, tzv. commitů
 
 
-```
-git init repo
-```
-vs.
 ```
 git clone adresa
 ```
