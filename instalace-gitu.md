@@ -38,9 +38,12 @@ Pokud při instalaci narazíš na nějaké problémy nebo si nebudeš něčím j
 1. **Terminál**: vyber **"Use Window's default console window"**, _Next_
 
    ![Terminál](obrazky/git-setup-09-terminal.png)
-1. Extra nastavení: nech zaškrtnuté vychozí nastavení, _Install_
+1. Extra nastavení: nech zaškrtnuté vychozí nastavení a dej _Next_ (nebo _Install_, pokud tam _Next_ není - pak můžeš přeskočit ty Experimentální funkce v dalším kroku)
 
    ![Extra nastavení](obrazky/git-setup-10-extras.png)
+1. Experimentální funkce: experimenty jsou fajn, ale my se prozatím obejdeme bez nich. Nic nezaškrtávej a klikni na _Install_.
+
+   ![Experimentální funkce](obrazky/git-setup-11-experimental.png)
 1. Počkej až doběhne instalace a ukonči instalátor
 1. Spusť příkazovou řádku Windows (*Start* → *Příkazová řádka*, nebo otevří Start a napiš `cmd`)
 1. Do příkazové řádky napiš příkaz `git --version` a dej enter.
