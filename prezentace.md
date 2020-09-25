@@ -49,6 +49,7 @@ class: center, middle
 * Dneska nás čeká spousta nových termitů. Jako _FAKT_. _VELKÁ_. _SPOUSTA_.
 * Budou se vám plést a nebudete si je pamatovat
 * To nevadí, já si taky pamatuju jen ty, co používám každej den. Většinu. Některý. Pár.
+* A často to prostě pokazim.. [OhShitGit](https://ohshitgit.com/cs)
 * Používejte [cheat-sheet](https://education.github.com/git-cheat-sheet-education.pdf)
 
 ---
