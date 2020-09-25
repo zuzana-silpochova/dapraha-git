@@ -25,7 +25,7 @@ Prezentaci si můžeš otevřít v prohlížeči na adrese <http://localhost:800
 prezentace i tak vyžaduje přístup k internetu (kvůli fontům a RevealJS knihovně).
 
 ## Prerekvizity
-
++ Založený účet na [GitHubu](https://www.github.com)
 * nainstalovaný [Git](https://git-scm.com), viz [instalace-gitu.md](https://danvratil.github.io/dapraha-git/instalace-gitu)
 * nainstalovaný [VSCode](https://code.visualstudio.com)
 
