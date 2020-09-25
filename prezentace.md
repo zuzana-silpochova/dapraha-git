@@ -18,7 +18,7 @@ class: center, middle
 
 ---
 
-## Co je to teda ten Git, Dane!?!?
+## Co je to teda ten Git, Petře!?!?
 
 * Distribuovaný VCS _(to sem tomu pomoh', co?)_
 * Uchovává historii změn souborů
