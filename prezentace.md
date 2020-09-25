@@ -157,7 +157,7 @@ class: excer
 * Naklonuj si můj vzorový repozitář:
 
 ```
-git clone https://github.com/KSonny4/dapraha-git.git
+  git clone https://github.com/KSonny4/dapraha-git.git
 ```
 
 * V pracovním adresáři bys nyní měla mít složku `dapraha-git`
@@ -185,7 +185,6 @@ git clone https://github.com/KSonny4/dapraha-git.git
 ---
 class: noconsole
 
-## Jak vypadá commit
 ## Jak vypadá commit
 ```
 commit 880d9161ba9de2cb8899d3e5ceea0c8590576ad2
@@ -231,7 +230,7 @@ class: excer
 * Historie je série commitů
 * V jednom repozitáři může být i více historií, které se mohou různě větvit
 * Historii říkáme `branch`, česky _větev_, slovensky _vetva_, latinsky _genere_
-* Hlavní větev se jmenuje `master` a existuje v každém repozitáři
+* Hlavní větev se jmenuje `master` a existuje (skoro) v každém repozitáři
 * K větvím se podrobněji vrátíme později (možná)
 
 ---
