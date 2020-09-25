@@ -126,8 +126,8 @@ _(a pak že programátoři nemaj umělecký nadání!)_
 Než začneme gitovat, musíme v gitu nastavit naše jméno a emailovou adresu
 
 ```
-git config --global user.name "Dan Vrátil"
-git config --global user.email dan.vratil@czechitas.cz
+git config --global user.name "Petr Kubelka"
+git config --global user.email petr.kubelka@avast.com
 ```
 
 ---
