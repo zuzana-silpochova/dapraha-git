@@ -185,23 +185,25 @@ git clone https://github.com/KSonny4/dapraha-git.git
 class: noconsole
 
 ## Jak vypadá commit
+## Jak vypadá commit
 ```
-commit 6f105362ffed4dbf22e9cfd6636bb04c3dd673cc
-Author: Daniel Vrátil <dan.vratil@czechitas.cz>
-Date:   Sun Sep 29 15:02:41 2019 +0200
+commit 880d9161ba9de2cb8899d3e5ceea0c8590576ad2
+Author: Dan Vrátil <dan.vratil@czechitas.cz>
+Date:   Wed Apr 10 17:42:29 2019 +0200
 
-    Oprava překlepu v instalace-gitu.md
+    Oprava nevinného překlepu
 
-diff --git a/instalace-gitu.md b/instalace-gitu.md
-index e3ca6bd..6fe64d0 100644
---- a/instalace-gitu.md
-+++ b/instalace-gitu.md
-@@ -66,7 +66,7 @@ Pokud to vypíše něco jako `git version 2.0.0` (číslo verze může být jin
- co řešit. Pokud ti to nabídne instalaci, tak to ber. Pokud tě to jen pošle do háje, budeš muset Git nainstalovat sama.
- 
- Pokud nevíš, jakou máš distribuci nebo jaký tam je správce balíčku, tak prostě vyzkoušej postupně všechny následující příkazy,
--dojud nějaký nebude fungovat.
-+dokud nějaký nebude fungovat.
+diff --git a/prezentace.md b/prezentace.md
+index 46aa983..f0ee52c 100644
+--- a/prezentace.md
++++ b/prezentace.md
+@@ -132,5 +132,5 @@
+ * identifikátor předchozího commitu
+ * autora commitu
+-* datum a čas vzňyku commitu
++* datum a čas vzniku commitu
+ * popis commitu zadaný autorem
+ * samotné změny
 ```
 ---
 
