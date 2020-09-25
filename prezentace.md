@@ -359,9 +359,12 @@ class: center, middle
 
 Jak si stáhnu nové změny třeba z GitHubu?
 
+
 ```
 git pull
 ```
+
+Pokuď jste udělali v předchozím cvičení chybu, může vám vzniknout merge conflict (o těch později).
 
 ---
 class: excer
@@ -470,7 +473,7 @@ class: excer
 * Naklonuj si ho do počítače
 * Vytvoř v něm soubor `program.py`, který vypíše náhodné číslo od 1 do 100 _(snad sis nemyslela, že Ti to dneska projde bez Pythonu ;-)_
 * Svůj program commitni do gitu a pushni na GitHub
-* Potom ještě program uprav tak, aby vypisoval náhodná čísla v rozsahu, který uživatel zadá jako parametr příkazové řádky _(Martin na tebe bude hrdej!)_
+* Potom ještě program uprav tak, aby vypisoval náhodná čísla v rozsahu, který uživatel zadá jako parametr příkazové řádky _(Martin a Dan na tebe bude hrdej!)_
 * Nové změny commitni a pushni na GitHub
 * Podívej se, že tam opravdu jsou _(teď na tebe zas můžu bejt hrdej já)_
 
