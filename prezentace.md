@@ -10,7 +10,9 @@ class: center, middle
 
 ---
 
-## Co je to verzovací systém?
+## verzovací systém?
+
+CO TO JEEEEE??
 
 * Nástroj na sledování změn v souborech a jejich sdílení
 * VCS existuje spousta: CVS, SVN, BitKeeper, Bazaar, Mercurial, Git, ...
